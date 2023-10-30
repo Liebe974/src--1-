@@ -28,11 +28,11 @@ window.addEventListener('scroll',(e) =>{
   });
 
 // Faire apparaitre la popup quand on est en bas du site
-let popupOpen = true;
+
 window.addEventListener('scroll',(e) =>{
     const popupPosition = window.scrollY;
     const heightPopup = document.getElementById('popup').scrollHeight;
-    if(heightPopup > popupPosition && popupOpen) {
+    if(heightPopup > popupPosition) {
       popup.style.opacity ='1';
       popup.style.transform ='translate(0)';
     }});
