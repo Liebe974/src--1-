@@ -39,5 +39,4 @@ window.addEventListener('scroll',(e) =>{
 // Bonus : quand on clicke sur la popup elle disparait pour toujours
 closeBtn.addEventListener("click", function () {
   popup.style.display = "none";
-  popupOpen = false;
 });
