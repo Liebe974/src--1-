@@ -5,9 +5,9 @@ let lastPosition = 0;
 window.addEventListener("scroll", function (e) {
   const currentPosition = window.scrollY;
   if (currentPosition > lastPosition) {
-    navbar.style.top = "-60px";
+    navbar.style.height = "60px";
   } else {
-    navbar.style.top = "0px";
+    navbar.style.height = "90px";
   }
   lastPosition = currentPosition;
 });
